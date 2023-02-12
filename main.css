@@ -1,0 +1,167 @@
+body {
+  font-family: "Montserrat", sans-serif;
+  color: white;
+  font-size: 18px;
+  /* background-color: #18181b; */
+}
+a {
+  text-decoration: none;
+  color: white;
+}
+.container {
+  display: flex;
+  list-style: none;
+  width: 1280px;
+  padding: 20px;
+  margin: auto;
+  border: 1px solid #18181b;
+  border-radius: 5px;
+}
+.leftSide {
+  width: 600px;
+  padding-bottom: 50px;
+  background-color: #18181b;
+  color: white;
+}
+.leftSide .headers {
+  margin-left: 70px;
+}
+.leftSide .list {
+  margin-left: 60px;
+}
+.contacts .headers {
+  background-color: #ffca12;
+  color: #18181b;
+  margin: 0;
+  padding: 10px 0px 10px 70px;
+  width: 480px;
+}
+.contacts .list {
+  list-style: none;
+  margin-left: 30px;
+}
+.contacts li {
+  display: flex;
+  align-items: center;
+}
+.photo {
+  position: absolute;
+  top: 70px;
+  left: 80px;
+  display: block;
+  width: 350px;
+  border: 20px solid #ffca12;
+}
+.imgWrapYellow {
+  position: absolute;
+  width: 550px;
+  height: 490px;
+  background-color: #ffca12;
+
+  transform: skewY(346deg);
+  top: 200px;
+  left: 0;
+}
+.imgWrapblack {
+  position: absolute;
+  background-color: #18181b;
+  height: 105px;
+
+  transform: skewY(346deg);
+  bottom: -90px;
+  left: 0;
+  z-index: 0;
+}
+.imgWrapWhite {
+  position: relative;
+  width: 600px;
+  height: 620px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: white;
+  border-radius: 0 0 55px 0;
+}
+.list {
+  margin-left: 25px;
+  list-style-type: square;
+}
+.list > li {
+  padding: 5px;
+}
+.headers {
+  display: block;
+  padding: 10px;
+  font-size: 32px;
+  text-align: start;
+  margin: 0;
+  padding: 0;
+}
+.hardSkills {
+  margin-top: 150px;
+}
+.softSkills {
+}
+.languages {
+}
+.rightSide {
+  padding: 50px;
+  width: 640px;
+  background-color: #18181b;
+}
+.rightSide li {
+  position: relative;
+  color: #ffca12;
+  list-style-image: url(./dots.jpg);
+}
+
+.rightSide p {
+  color: white;
+}
+
+.name {
+  font-family: "Montserrat", sans-serif;
+
+  font-size: 60px;
+  margin: 50px 0 0 0;
+  color: #ffca12;
+}
+.dev {
+  color: white;
+}
+.line {
+  display: block;
+  border: 1px solid #18181b;
+}
+.text {
+  font-weight: bold;
+  position: absolute;
+  top: 460px;
+  left: 80px;
+  width: 370px;
+  color: black;
+}
+.summary {
+}
+.projects {
+}
+.workExp {
+}
+.education {
+}
+.line::before {
+  content: "";
+  display: inline-block;
+  width: 4px;
+  height: 50%;
+  left: -20px;
+  position: absolute;
+  background-color: #ffca12;
+}
+.icon {
+  fill: #ffca12;
+  margin-right: 5px;
+}
+.accent {
+  color: #ffca12;
+}
