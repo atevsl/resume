@@ -83,7 +83,6 @@ a {
   border-radius: 0 0 55px 0;
 }
 .list {
-  margin-left: 25px;
   list-style-type: square;
 }
 .list > li {
@@ -94,7 +93,7 @@ a {
   padding: 10px;
   font-size: 32px;
   text-align: start;
-  margin: 0;
+  margin: 0 0 0 20px;
   padding: 0;
 }
 .hardSkills {
@@ -120,11 +119,12 @@ a {
   font-family: "Montserrat", sans-serif;
 
   font-size: 60px;
-  margin: 50px 0 0 0;
+  margin: 50px 0 0 20px;
   color: #ffca12;
 }
 .dev {
   color: white;
+  margin-left: 20px;
 }
 .line {
   display: block;
