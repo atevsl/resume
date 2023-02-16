@@ -30,11 +30,8 @@ a {
   margin-left: 60px;
 }
 .contacts .headers {
-  background-color: #ffca12;
-  color: #18181b;
-  margin: 0;
-  padding: 10px 0px 10px 70px;
-  width: 480px;
+  color: #ffca12;
+  margin-top: 150px;
 }
 .contacts .list {
   list-style: none;
@@ -86,8 +83,12 @@ a {
   margin: 0 0 0 20px;
   padding: 0;
 }
-.hardSkills {
-  margin-top: 150px;
+.languages .headers {
+  background-color: #ffca12;
+  color: #18181b;
+  padding: 10px 0px 10px 70px;
+  width: 480px;
+  margin-left: 0;
 }
 
 .rightSide {
