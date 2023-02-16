@@ -99,7 +99,6 @@ a {
 .rightSide li {
   position: relative;
   color: #ffca12;
-  list-style-image: url(./dots.jpg);
 }
 
 .rightSide p {
