@@ -2,12 +2,8 @@ body {
   font-family: "Montserrat", sans-serif;
   color: white;
   font-size: 18px;
-  /* background-color: #18181b; */
 }
-a {
-  text-decoration: none;
-  color: white;
-}
+
 .container {
   display: flex;
   list-style: none;
@@ -29,9 +25,12 @@ a {
 .leftSide .list {
   margin-left: 60px;
 }
+.contacts a {
+  color: #ffca12;
+}
 .contacts .headers {
   color: #ffca12;
-  margin-top: 150px;
+  margin-top: 330px;
 }
 .contacts .list {
   list-style: none;
@@ -43,19 +42,23 @@ a {
 }
 .photo {
   position: absolute;
-  top: 70px;
+  top: 0px;
   left: 80px;
   display: block;
   width: 350px;
-  border: 20px solid #ffca12;
+  border-radius: 5% 0 5% 0;
+  border: 10px solid transparent;
+  background: linear-gradient(to bottom, #ffca12 0%, #ffca12 50%, #18181b 100%)
+    border-box;
 }
 .imgWrapYellow {
   position: absolute;
   width: 550px;
-  height: 490px;
+  height: 690px;
   background-color: #ffca12;
+  border-radius: 0 0 5% 0;
 
-  transform: skewY(346deg);
+  transform: skewY(350deg);
   top: 200px;
   left: 0;
 }
@@ -67,10 +70,13 @@ a {
   justify-content: center;
   align-items: center;
   background-color: white;
-  border-radius: 0 0 55px 0;
+  border-radius: 0 0 15% 0;
 }
 .list {
   list-style-type: square;
+}
+.list a {
+  color: #ffca12;
 }
 .list > li {
   padding: 5px;
@@ -95,10 +101,14 @@ a {
   padding: 50px;
   width: 640px;
   background-color: #18181b;
+  border-radius: 0 0 150px 0;
 }
 .rightSide li {
   position: relative;
   color: #ffca12;
+}
+.duties li {
+  color: white;
 }
 
 .rightSide p {
@@ -122,18 +132,20 @@ a {
 }
 .text {
   font-weight: bold;
+  text-align: center;
   position: absolute;
-  top: 460px;
+  top: 425px;
   left: 80px;
   width: 370px;
   color: black;
+  transform: skewY(350deg);
 }
 
 .line::before {
   content: "";
   display: inline-block;
   width: 4px;
-  height: 50%;
+  height: 55%;
   left: -15px;
   position: absolute;
   background-color: #ffca12;
