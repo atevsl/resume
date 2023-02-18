@@ -28,6 +28,9 @@ body {
 .contacts a {
   color: #ffca12;
 }
+.non-style {
+  text-decoration: none;
+}
 .contacts .headers {
   color: #ffca12;
   margin-top: 330px;
