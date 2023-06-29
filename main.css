@@ -1,7 +1,8 @@
 body {
-  font-family: "Montserrat", sans-serif;
+  font-family: 'Montserrat', sans-serif;
   color: white;
   font-size: 18px;
+  cursor: default;
 }
 
 .container {
@@ -50,8 +51,7 @@ body {
   top: 0px;
   left: 80px;
   clip-path: polygon(0% 15%, 100% 0, 100% 85%, 0% 100%);
-  background: linear-gradient(to bottom, #ffca12 0%, #ffca12 50%, #18181b 100%)
-    border-box;
+  background: linear-gradient(to bottom, #ffca12 0%, #ffca12 50%, #18181b 100%) border-box;
 }
 .photo {
   position: absolute;
@@ -127,7 +127,7 @@ body {
 }
 
 .name {
-  font-family: "Montserrat", sans-serif;
+  font-family: 'Montserrat', sans-serif;
 
   font-size: 60px;
   margin: 50px 0 0 20px;
@@ -153,7 +153,7 @@ body {
 }
 
 .line::before {
-  content: "";
+  content: '';
   display: inline-block;
   width: 4px;
   height: 55%;
@@ -168,6 +168,6 @@ body {
 .accent {
   color: #ffca12;
 }
-.linkwithoutunderlining{
+.linkwithoutunderlining {
   text-decoration: none;
 }
